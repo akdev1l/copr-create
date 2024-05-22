@@ -107,7 +107,7 @@ def main():
     except Exception as e:
         logger.error("could not trigger build")
         logger.error(e)
-
+        exit(1)
 
 
 if __name__ == "__main__":
