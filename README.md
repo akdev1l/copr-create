@@ -48,7 +48,7 @@ jobs:
 |`git-remote`|Git Remote to build|No|`https://github.com/${{github.repository_owner}}/${{github.event.repository.name}}`|
 |`committish`|Git committish to build|No|`main`|
 
-OTE: The package `package-name` will be created if it doesn't exist in COPR.
+NOTE: The package `package-name` will be created if it doesn't exist in COPR.
 
 ### How to get your COPR API configuration?
 
